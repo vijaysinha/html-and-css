@@ -6,5 +6,15 @@ button.onclick = displayMessage;
 
 function displayMessage(){
 	var addsong = document.getElementById('inputText');
-	var displaySong = addsong.value;
+	var songlist = addsong.value;
+	if(songlist!==""){
+	var li = document.createElement('li');
+	li.innerHTML = songlist;
+	var ul = document.getElementById('playlist');
+	ul.appendChild(li);
+}
+else
+{
+	alert("Please type song name first. !");
+}
 }

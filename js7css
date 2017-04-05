@@ -1,0 +1,10 @@
+div #mapPage{
+	margin: 5px;
+	width: 400px;
+	height: 400px;
+	border: 1px solid black;
+}
+div #Location{
+	text-align: left;
+	font: verdana;
+}
