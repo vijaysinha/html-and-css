@@ -1,0 +1,12 @@
+div#mapPage{
+	margin: 70px;
+	height:400px;
+	width: 400px;
+	border: 1px solid black;
+}
+div#Location{
+	margin: 70px;
+	height: 39px;
+	width:	300px;
+	border: 1px solid black;
+}
